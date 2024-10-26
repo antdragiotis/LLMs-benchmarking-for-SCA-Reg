@@ -1,11 +1,11 @@
 ## Benchmarking LLMs in the Comprehension of EU Payments Regulations (OpenAI-Evals, LLaMA-Index)
 This project employs **OpenAI** models and the **OpenAI-Evals** platform to assess the performance of **Large Language Models (LLMs)** in accurately answering multiple-choice questions related to the European Regulation on **Strong Customer Authentication (SCA)** for electronic payments.
 
-The **LLaMA-Index** framework facilitates the ingestion of the SCA regulation into a **FAISS Vector Database**, enabling efficient query and response processes under a **Retrieval Augmented Generation (RAG)** approach. The **OpenAI Evals** platform is utilized to process a prepared benchmark dataset and evaluate the accuracy of various OpenAI models.
+The **LLaMA-Index** framework facilitates the ingestion of the SCA regulation into a **FAISS Vector Database**, enabling efficient query and response processes under a **Retrieval Augmented Generation (RAG)** approach. The **OpenAI-Evals** platform is utilized to process a prepared benchmark dataset and evaluate the accuracy of various OpenAI models.
 
 Results indicate that the most advanced models achieve high accuracy rates: "text-davinci-003" at **88%**, "gpt-3.5-turbo" at **89%** "gpt-4o-mini" at **94%**, and "gpt-4o" at **97%**.
 
-This application is not intended for direct integration into production environments. Instead, it demonstrates with a few lines of Python code, how these platforms can be utilized to support flexible validation of LLMs. 
+This application is not intended for direct integration into production environments. Rather, it demonstrates, with a few lines of Python code, how these platforms can be utilized to support flexible validation of large language models (LLMs).
 
 ### Purpose 
 Strong Customer Authentication (SCA) regulation is essential in electronic payments to enhance security by requiring multi-factor verification. This reduces fraud risk, safeguards customer data, and aligns with regulatory standards like the EU’s Payments Services Directive II. 
