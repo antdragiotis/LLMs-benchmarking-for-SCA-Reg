@@ -37,8 +37,8 @@ The ingestion of the SCA regulation contents and the benchmarking of LLMs follow
 - it is assumed that your system has been configured with the OPENAI_API_KEY, otherwise you need to add the following statements to the python code files:
   - import os
   - os.environ["OPENAI_API_KEY"] = "your-openai-api-key"
-- run the two Python file EU_SCA_REG_INGEST.py
-- utilize the **SCA_completion_fn.py** according to the instructions of the OpenAI-Evals platform to run the evaluation
+- run the **Python file EU_SCA_REG_INGEST.py**
+- utilize the **SCA_completion_fn.py** according to the instructions of the OpenAI-Evals platform to run the customized **Completion Function**  
 - review the results of the evaluation in the **C:\tmp\evallogs** directory.
  
 ### Project Structure
