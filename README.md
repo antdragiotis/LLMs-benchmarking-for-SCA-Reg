@@ -16,7 +16,7 @@ By leveraging advanced natural language processing, LLMs can interpret regulator
 
 Benchmarking of LLMs is crucial to ensure their reliability, accuracy, and relevance in real-world applications. Before deployment in production, rigorous evaluation assesses model performance across diverse linguistic and contextual tasks, revealing potential biases, limitations, and areas for optimization. 
 
-This project show through a simple benchmarking example that enables LLMs performance evaluation. 
+This project presents a straightforward benchmarking example designed to evaluate the performance of large language models (LLMs), serving as a step toward aligning AI models with industry standards.
 
 ### Process Overview 
 The ingestion of the SCA regulation contents and the benchmarking of LLMs follow the below steps:
