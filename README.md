@@ -21,6 +21,7 @@ This project show through a simple example where benchmarking enables comparison
 ### Process Overview 
 The ingestion of the SCA regulation contents and the benchmarking of LLMs follow the below steps:
 
+![Process Overview](https://github.com/antdragiotis/LLMs-benchmarking-for-SCA-Reg/blob/main/assets/SCA_Bench_Overview.PNG)
 
 ### Features
 - **Source Data**: The project uses as source data  the MS-word file **SCA_2018_10_Scource.docx** which is an annotated version of the Strong Customer Authentication Regulation (SCA). The original SCA text is available at EUR-Lex (https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32018R0389). For this  application, only the regulation articles have been retained and marked with symbols to denote the chapters and the articles of the regulation. The introductory sections have been excluded, resulting in a focused text file to serve as the project's source data.
